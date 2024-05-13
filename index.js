@@ -22,3 +22,5 @@ fetch("https://api.github.com/users/adryancore/repos").then((res) => {
     errorElement.innerText = error.message;
     projectSelection.appendChild(errorElement);
 });
+
+// tiny change here
