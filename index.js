@@ -1,8 +1,8 @@
 const catContainer = document.getElementById("catContainer");
+const fetchCatButton = document.getElementById("fetch-catch");
 
-console.log(catContainer);
-
-fetch("https://api.thecatapi.com/v1/images/search?limit=1&has_breeds=1&api_key=live_I8aBnXYvGao92mK7EDF65eLqXMaLdVxLTWk3vnsdZVSlbWGeLE3XadfDyIZHtJa4")
+fetchCatButton.addEventListener("click", () => {
+    fetch("https://api.thecatapi.com/v1/images/search?limit=1&has_breeds=1&api_key=live_I8aBnXYvGao92mK7EDF65eLqXMaLdVxLTWk3vnsdZVSlbWGeLE3XadfDyIZHtJa4")
     .then((res) => {
         if (!res.ok) {
         throw new Error("oh no! invalid");
@@ -31,3 +31,5 @@ fetch("https://api.thecatapi.com/v1/images/search?limit=1&has_breeds=1&api_key=l
 .catch((err) => {
     console.warn(err);
 });
+});
+
