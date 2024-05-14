@@ -1,7 +1,10 @@
 const catContainer = document.getElementById("catContainer");
-const fetchCatButton = document.getElementById("fetch-catch");
+const fetchCatButton = document.getElementById("fetchCatButton");
 
 fetchCatButton.addEventListener("click", () => {
+
+    catContainer.innerHTML = "";
+
     fetch("https://api.thecatapi.com/v1/images/search?limit=1&has_breeds=1&api_key=live_I8aBnXYvGao92mK7EDF65eLqXMaLdVxLTWk3vnsdZVSlbWGeLE3XadfDyIZHtJa4")
     .then((res) => {
         if (!res.ok) {
@@ -13,8 +16,7 @@ fetchCatButton.addEventListener("click", () => {
         console.log(data);
         const catImgUrl = data[0].url;
         const catImg = document.createElement("img");
-        catImgUrl.src = catImgUrl;
-     
+        catImg.src = catImgUrl;
 
         console.log(data[0].breeds[0].name);
         const breedName  = data[0].breeds[0].name;
