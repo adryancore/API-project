@@ -1,0 +1,19 @@
+/* color scheme: #E6E856, #6CE856, #A9E856, #A9E856, #A9E856, #A9E856 */
+
+body {
+    background-color: #6CE856;
+    color: #ffffff;
+    font-family: Arial;
+    margin: auto;
+}
+
+h2 {
+    background-color: #E6E856;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+img {
+    max-width: 30rem;
+}
