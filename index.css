@@ -7,9 +7,16 @@ body {
     margin: auto;
 }
 
-h2 {
+h1 {
     background-color: #E6E856;
-    color: #ffffff;
+    color: #000000;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+
+h2 {
+    color: #fff;
     font-family: Arial;
     font-size: 30px;
 }
@@ -18,6 +25,26 @@ img {
     max-width: 30rem;
 }
 
-button {
-    
+button, button:active {
+    background-color: #A9E856;
+    font-family: Arial;
+    border-color: #E6E856;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button.disabled {
+    background-color: #A9E856;
+    font-family: Arial;
+    text-transform: uppercase;
+    opacity: 0.5;
+    cursor: not-allowed;
+    font-weight: bold;
+}
+
+button.disabled:hover {
+    background-color: #A9E856;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-weight: bold;
 }
