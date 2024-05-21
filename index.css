@@ -4,21 +4,26 @@ body {
     background-color: #6CE856;
     color: #ffffff;
     font-family: Arial;
+    font-size: 24px;
     margin: auto;
+    text-align: center;
 }
 
 h1 {
     background-color: #E6E856;
     color: #000000;
     font-family: Arial;
-    font-size: 30px;
+    font-size: 50px;
+    text-align: center;
 }
 
 
 h2 {
-    color: #fff;
+    color: #000;
     font-family: Arial;
     font-size: 30px;
+    text-align: center;
+    background-color: #E6E856;
 }
 
 img {
@@ -28,9 +33,11 @@ img {
 button, button:active {
     background-color: #A9E856;
     font-family: Arial;
+    font-size: 16px;
     border-color: #E6E856;
     text-transform: uppercase;
     font-weight: bold;
+    text-align: center;
 }
 
 button.disabled {
@@ -38,13 +45,17 @@ button.disabled {
     font-family: Arial;
     text-transform: uppercase;
     opacity: 0.5;
+    font-size: 16px;
     cursor: not-allowed;
     font-weight: bold;
+    text-align: center;
 }
 
 button.disabled:hover {
     background-color: #A9E856;
     font-family: Arial;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
+    text-align: center;
 }
