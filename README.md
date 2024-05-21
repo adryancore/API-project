@@ -16,11 +16,11 @@ You will need a modern web browser to run this project.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/pet-image-fetcher.git
+    git clone https://github.com/adryancore/api-project
     ```
 2. Open the project directory:
     ```bash
-    cd pet-image-fetcher
+    cd api-project
     ```
 3. Open the `index.html` file in your web browser:
     ```bash
@@ -30,14 +30,5 @@ You will need a modern web browser to run this project.
 
 ### Usage
 
-- When you open the `index.html` file, it will automatically fetch and display a random cat and dog image along with their breed information.
-- The cat and dog images, along with their breed names and temperaments, will be displayed in separate containers.
-
-## Code Overview
-
-### HTML Structure
-
-The HTML file includes containers for displaying cat and dog information:
-```html
-<div id="catContainer"></div>
-<div id="dogContainer"></div>
+- When you open the `index.html` file, it will fetch and display a random cat and dog image along with their breed information once you click the prospective cat or dog links.
+- The cat and dog images, along with their breed names and temperaments, will be displayed on their prospective pages.
