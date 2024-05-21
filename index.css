@@ -1,6 +1,6 @@
 /* color scheme: #E6E856, #6CE856, #A9E856, #A9E856, #A9E856, #A9E856 */
 
-body {
+body, a {
     background-color: #6CE856;
     color: #ffffff;
     font-family: Arial;
