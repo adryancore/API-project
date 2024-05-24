@@ -1,3 +1,4 @@
+const dogContainer = document.getElementById("dogContainer");
 
 // fetch a dog
 fetch("https://api.thedogapi.com/v1/images/search?limit=1&has_breeds=1&api_key=live_Q95ErQP72gUGM47PC45Cx7OEz6BEPyiIz4WnQOHNwyxVCoUQ971RomybV9ut6651")
